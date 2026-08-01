@@ -1,0 +1,1451 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ONE TRANS LOMBOK - Rental Mobil & Travel Wisata Lombok Terpercaya. Armada Terawat, Driver Profesional, Harga Transparan.">
+    <meta name="keywords" content="rental mobil lombok, travel wisata lombok, sewa mobil lombok, paket tour lombok, airport transfer lombok">
+    <meta name="author" content="ONE TRANS LOMBOK">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="ONE TRANS LOMBOK - Rental Mobil & Travel Wisata Lombok">
+    <meta property="og:description" content="Layanan rental mobil, airport transfer, dan paket wisata Lombok dengan armada terbaik.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://onetranslombok.com">
+    <title>ONE TRANS LOMBOK - Rental Mobil & Travel Wisata Lombok Terpercaya</title>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CarRental",
+        "name": "ONE TRANS LOMBOK",
+        "description": "Rental Mobil & Travel Wisata Lombok Terpercaya",
+        "url": "https://onetranslombok.com",
+        "telephone": "+6281234567890",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lombok",
+            "addressRegion": "NTB",
+            "addressCountry": "ID"
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        darkMode: 'class',
+        theme: {
+            extend: {
+                colors: {
+                    navy: { DEFAULT: '#082B5C', light: '#0c3d7a', dark: '#051d3e' },
+                    royal: { DEFAULT: '#0D6EFD', light: '#3d8efd', dark: '#0a5bd4' },
+                    gold: { DEFAULT: '#C9A84C', light: '#dfc06a', dark: '#a88a35' },
+                    softgray: '#F5F7FA',
+                    darkbg: '#0a0f1a',
+                    darkcard: '#111827',
+                    darkborder: '#1e293b'
+                },
+                fontFamily: {
+                    poppins: ['Poppins', 'sans-serif']
+                }
+            }
+        }
+    }
+    </script>
+    <style>
+        * { font-family: 'Poppins', sans-serif; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        .dark ::-webkit-scrollbar-track { background: #111827; }
+        ::-webkit-scrollbar-thumb { background: #082B5C; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #0D6EFD; }
+
+        .glass { background: rgba(255,255,255,0.12); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border: 1px solid rgba(255,255,255,0.18); }
+        .dark .glass { background: rgba(0,0,0,0.35); border-color: rgba(255,255,255,0.08); }
+        .glass-card { background: rgba(255,255,255,0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.5); }
+        .dark .glass-card { background: rgba(17,24,39,0.9); border-color: rgba(255,255,255,0.06); }
+
+        .hero-parallax { background-attachment: fixed; background-size: cover; background-position: center; }
+        @media (max-width: 768px) { .hero-parallax { background-attachment: scroll; } }
+
+        .nav-scrolled { background: rgba(8,43,92,0.97) !important; backdrop-filter: blur(20px) !important; box-shadow: 0 4px 30px rgba(0,0,0,0.3); }
+        .dark .nav-scrolled { background: rgba(10,15,26,0.97) !important; }
+
+        .fade-up { opacity: 0; transform: translateY(40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .fade-up.visible { opacity: 1; transform: translateY(0); }
+        .fade-left { opacity: 0; transform: translateX(-40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .fade-left.visible { opacity: 1; transform: translateX(0); }
+        .fade-right { opacity: 0; transform: translateX(40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .fade-right.visible { opacity: 1; transform: translateX(0); }
+        .scale-in { opacity: 0; transform: scale(0.9); transition: opacity 0.6s ease, transform 0.6s ease; }
+        .scale-in.visible { opacity: 1; transform: scale(1); }
+
+        .card-hover { transition: transform 0.4s ease, box-shadow 0.4s ease; }
+        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 60px rgba(8,43,92,0.15); }
+        .dark .card-hover:hover { box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+
+        .gold-gradient { background: linear-gradient(135deg, #C9A84C, #dfc06a, #a88a35); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .navy-gradient { background: linear-gradient(135deg, #082B5C, #0D6EFD); }
+        .hero-gradient { background: linear-gradient(135deg, rgba(8,43,92,0.85), rgba(13,110,253,0.6), rgba(8,43,92,0.9)); }
+
+        .btn-primary { background: linear-gradient(135deg, #082B5C, #0D6EFD); transition: all 0.3s ease; position: relative; overflow: hidden; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(13,110,253,0.4); }
+        .btn-primary::after { content:''; position:absolute; top:50%; left:50%; width:0; height:0; background:rgba(255,255,255,0.15); border-radius:50%; transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s; }
+        .btn-primary:hover::after { width:300px; height:300px; top:-100px; left:-100px; }
+
+        .btn-gold { background: linear-gradient(135deg, #C9A84C, #a88a35); color: #fff; transition: all 0.3s ease; }
+        .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(201,168,76,0.4); }
+
+        .btn-outline { border: 2px solid #0D6EFD; color: #0D6EFD; transition: all 0.3s ease; }
+        .btn-outline:hover { background: #0D6EFD; color: #fff; transform: translateY(-2px); }
+        .dark .btn-outline { border-color: #3d8efd; color: #3d8efd; }
+        .dark .btn-outline:hover { background: #3d8efd; }
+
+        .stat-card { background: rgba(255,255,255,0.1); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.15); }
+        .dark .stat-card { background: rgba(0,0,0,0.3); }
+
+        .img-zoom { overflow: hidden; }
+        .img-zoom img { transition: transform 0.6s ease; }
+        .img-zoom:hover img { transform: scale(1.08); }
+
+        .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+        .accordion-content.open { max-height: 500px; }
+
+        .mobile-menu { transform: translateX(100%); transition: transform 0.4s cubic-bezier(0.4,0,0.2,1); }
+        .mobile-menu.open { transform: translateX(0); }
+
+        .lightbox { opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+        .lightbox.active { opacity: 1; pointer-events: all; }
+
+        .promo-banner { transform: translateY(0); transition: transform 0.4s ease; }
+        .promo-banner.hidden { transform: translateY(-100%); }
+
+        .popup-overlay { opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+        .popup-overlay.active { opacity: 1; pointer-events: all; }
+        .popup-content { transform: scale(0.8) translateY(20px); transition: transform 0.4s cubic-bezier(0.4,0,0.2,1); }
+        .popup-overlay.active .popup-content { transform: scale(1) translateY(0); }
+
+        .modal-overlay { opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+        .modal-overlay.active { opacity: 1; pointer-events: all; }
+        .modal-content { transform: scale(0.9) translateY(30px); transition: transform 0.4s cubic-bezier(0.4,0,0.2,1); }
+        .modal-overlay.active .modal-content { transform: scale(1) translateY(0); }
+
+        .filter-btn.active { background: linear-gradient(135deg, #082B5C, #0D6EFD); color: #fff; border-color: transparent; }
+
+        .star-rating { color: #C9A84C; }
+
+        @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+        @keyframes pulse-gold { 0%,100% { box-shadow: 0 0 0 0 rgba(201,168,76,0.4); } 70% { box-shadow: 0 0 0 15px rgba(201,168,76,0); } }
+        .float-anim { animation: float 3s ease-in-out infinite; }
+        .pulse-gold { animation: pulse-gold 2s infinite; }
+
+        .testimonial-slider { scroll-behavior: smooth; -ms-overflow-style: none; scrollbar-width: none; }
+        .testimonial-slider::-webkit-scrollbar { display: none; }
+
+        input:focus, select:focus, textarea:focus { outline: none; border-color: #0D6EFD; box-shadow: 0 0 0 3px rgba(13,110,253,0.15); }
+        .dark input:focus, .dark select:focus, .dark textarea:focus { border-color: #3d8efd; box-shadow: 0 0 0 3px rgba(61,142,253,0.2); }
+
+        .section-divider { width: 60px; height: 4px; background: linear-gradient(90deg, #C9A84C, #0D6EFD); border-radius: 2px; }
+    </style>
+</head>
+<body class="bg-white dark:bg-darkbg text-gray-800 dark:text-gray-200 transition-colors duration-300">
+
+    <!-- Promo Banner -->
+    <div id="promoBanner" class="promo-banner bg-gradient-to-r from-navy via-royal to-navy text-white text-center py-2.5 px-4 text-sm relative z-[60]">
+        <span class="font-medium">PROMO SPESIAL: Diskon 15% untuk pemesanan pertama! Gunakan kode <strong class="text-gold">FIRST15</strong></span>
+        <button onclick="closePromo()" class="absolute right-4 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition" aria-label="Tutup promo">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-transparent">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="#home" class="flex items-center gap-2 flex-shrink-0">
+                    <div class="w-10 h-10 rounded-lg navy-gradient flex items-center justify-center">
+                        <i class="fas fa-car-side text-white text-lg"></i>
+                    </div>
+                    <div class="leading-tight">
+                        <span class="text-white font-bold text-lg tracking-tight block">ONE TRANS</span>
+                        <span class="text-gold text-[10px] font-semibold tracking-[3px] uppercase">LOMBOK</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Menu -->
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="#home" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Home</a>
+                    <a href="#armada" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Rental Mobil</a>
+                    <a href="#armada" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Armada</a>
+                    <a href="#wisata" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Travel Lombok</a>
+                    <a href="#paket" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Paket Wisata</a>
+                    <a href="#gallery" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Gallery</a>
+                    <a href="#testimoni" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Testimoni</a>
+                    <a href="#tentang" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Tentang Kami</a>
+                    <a href="#blog" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Blog</a>
+                    <a href="#kontak" class="nav-link text-white/90 hover:text-gold text-sm font-medium px-3 py-2 rounded-lg transition-all duration-300 hover:bg-white/10">Kontak</a>
+                </div>
+
+                <!-- Right Actions -->
+                <div class="flex items-center gap-3">
+                    <button onclick="toggleDark()" class="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-all duration-300" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon dark-hidden text-sm"></i>
+                        <i class="fas fa-sun dark-show text-sm hidden"></i>
+                    </button>
+                    <a href="#booking" class="hidden sm:inline-flex btn-gold px-5 py-2.5 rounded-full text-sm font-semibold items-center gap-2">
+                        <i class="fas fa-calendar-check"></i> BOOKING SEKARANG
+                    </a>
+                    <button onclick="toggleMobileMenu()" class="lg:hidden w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition" aria-label="Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-80 max-w-[85vw] h-full bg-navy dark:bg-darkcard z-[70] overflow-y-auto">
+        <div class="p-6">
+            <div class="flex items-center justify-between mb-8">
+                <span class="text-white font-bold text-lg">Menu</span>
+                <button onclick="toggleMobileMenu()" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white" aria-label="Tutup menu">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="flex flex-col gap-1">
+                <a href="#home" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Home</a>
+                <a href="#armada" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Rental Mobil</a>
+                <a href="#armada" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Armada</a>
+                <a href="#wisata" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Travel Lombok</a>
+                <a href="#paket" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Paket Wisata</a>
+                <a href="#gallery" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Gallery</a>
+                <a href="#testimoni" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Testimoni</a>
+                <a href="#tentang" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Tentang Kami</a>
+                <a href="#blog" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Blog</a>
+                <a href="#kontak" onclick="toggleMobileMenu()" class="text-white/90 hover:text-gold hover:bg-white/10 px-4 py-3 rounded-lg transition font-medium text-sm">Kontak</a>
+            </div>
+            <a href="#booking" onclick="toggleMobileMenu()" class="btn-gold w-full mt-6 py-3 rounded-full text-center font-semibold text-sm block">
+                <i class="fas fa-calendar-check mr-2"></i>BOOKING SEKARANG
+            </a>
+        </div>
+    </div>
+    <div id="mobileOverlay" class="fixed inset-0 bg-black/50 z-[65] hidden" onclick="toggleMobileMenu()"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center hero-parallax" style="background-image: url('one.png');">
+        <!-- Ganti URL gambar ini dengan foto asli hero background Lombok -->
+        <div class="hero-gradient absolute inset-0"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-navy/80"></div>
+
+        <!-- Partikel dekoratif -->
+        <div class="absolute top-20 left-10 w-2 h-2 bg-gold/30 rounded-full float-anim" style="animation-delay:0s"></div>
+        <div class="absolute top-40 right-20 w-3 h-3 bg-royal/30 rounded-full float-anim" style="animation-delay:1s"></div>
+        <div class="absolute bottom-40 left-1/4 w-2 h-2 bg-white/20 rounded-full float-anim" style="animation-delay:0.5s"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 w-full">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-2 mb-6">
+                    <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                    <span class="text-white/90 text-sm font-medium">Tersedia 24 Jam untuk Anda</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-black text-white leading-tight mb-4">
+                    ONE TRANS <span class="gold-gradient">LOMBOK</span>
+                </h1>
+                <p class="text-xl sm:text-2xl lg:text-3xl text-white/90 font-light mb-6 leading-relaxed">
+                    Liburan Nyaman, Perjalanan Aman Bersama Kami
+                </p>
+                <p class="text-base sm:text-lg text-white/70 mb-10 max-w-xl leading-relaxed">
+                    Nikmati layanan rental mobil, airport transfer, dan paket wisata Lombok dengan armada terbaik serta driver profesional.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#booking" class="btn-gold px-8 py-4 rounded-full font-semibold text-base inline-flex items-center gap-2 pulse-gold">
+                        <i class="fab fa-whatsapp text-lg"></i> BOOKING VIA WHATSAPP
+                    </a>
+                    <a href="#armada" class="btn-outline border-white/40 text-white hover:bg-white hover:text-navy px-8 py-4 rounded-full font-semibold text-base inline-flex items-center gap-2">
+                        <i class="fas fa-car"></i> LIHAT ARMADA
+                    </a>
+                </div>
+            </div>
+
+            <!-- Stat Cards -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16">
+                <div class="stat-card rounded-2xl p-5 text-center">
+                    <div class="text-3xl sm:text-4xl font-black text-gold mb-1" data-count="5000">0</div>
+                    <div class="text-white/70 text-sm font-medium">Customer</div>
+                </div>
+                <div class="stat-card rounded-2xl p-5 text-center">
+                    <div class="text-3xl sm:text-4xl font-black text-gold mb-1" data-count="100">0</div>
+                    <div class="text-white/70 text-sm font-medium">Review</div>
+                </div>
+                <div class="stat-card rounded-2xl p-5 text-center">
+                    <div class="text-3xl sm:text-4xl font-black text-gold mb-1" data-count="30">0</div>
+                    <div class="text-white/70 text-sm font-medium">Armada</div>
+                </div>
+                <div class="stat-card rounded-2xl p-5 text-center">
+                    <div class="text-3xl sm:text-4xl font-black text-gold mb-1">24 Jam</div>
+                    <div class="text-white/70 text-sm font-medium">Pelayanan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking" class="relative py-20 bg-softgray dark:bg-darkbg">
+        <div class="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-navy/5 to-transparent dark:from-navy/10"></div>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-12 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">RESERVASI ONLINE</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Booking Sekarang</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+                <p class="text-gray-500 dark:text-gray-400 max-w-lg mx-auto">Isi form di bawah untuk melakukan pemesanan. Kami akan menghubungi Anda via WhatsApp.</p>
+            </div>
+            <div class="glass-card rounded-3xl p-6 sm:p-10 shadow-2xl shadow-navy/10 dark:shadow-none fade-up">
+                <form id="bookingForm" onsubmit="submitBooking(event)">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Nama Customer</label>
+                            <input type="text" id="bNama" required placeholder="Nama lengkap Anda" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Nomor WhatsApp</label>
+                            <input type="tel" id="bWA" required placeholder="08xxxxxxxxxx" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Email</label>
+                            <input type="email" id="bEmail" placeholder="email@contoh.com" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Pilihan Mobil</label>
+                            <select id="bMobil" required class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                                <option value="">-- Pilih Mobil --</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Tanggal Rental</label>
+                            <input type="date" id="bTanggal" required class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Tanggal Kembali</label>
+                            <input type="date" id="bKembali" required class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Jam Jemput</label>
+                            <input type="time" id="bJam" required class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Lokasi Jemput</label>
+                            <input type="text" id="bJemput" required placeholder="Bandara / Hotel / Lokasi lain" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Tujuan</label>
+                            <input type="text" id="bTujuan" placeholder="Tujuan perjalanan" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Jumlah Orang</label>
+                            <input type="number" id="bOrang" min="1" max="50" value="2" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Pilih Paket Wisata</label>
+                            <select id="bPaket" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                                <option value="">-- Tanpa Paket (Rental Only) --</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Dengan Driver</label>
+                            <select id="bDriver" class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition">
+                                <option value="Ya">Ya, dengan driver</option>
+                                <option value="Tidak">Tidak, lepas kunci</option>
+                            </select>
+                        </div>
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-semibold text-navy dark:text-white mb-2">Catatan Tambahan</label>
+                            <textarea id="bCatatan" rows="3" placeholder="Permintaan khusus, informasi tambahan..." class="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-gray-800 dark:text-gray-200 text-sm transition resize-none"></textarea>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <button type="submit" class="btn-primary text-white px-12 py-4 rounded-full font-bold text-base inline-flex items-center gap-3">
+                            <i class="fab fa-whatsapp text-xl"></i> BOOKING SEKARANG
+                        </button>
+                        <p class="text-gray-400 text-xs mt-3">Data Anda akan dikirim langsung melalui WhatsApp</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Armada Section -->
+    <section id="armada" class="py-20 bg-white dark:bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">ARMADA KAMI</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Rental Mobil Lombok</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+                <p class="text-gray-500 dark:text-gray-400 max-w-lg mx-auto">Pilih kendaraan yang sesuai dengan kebutuhan perjalanan Anda di Lombok</p>
+            </div>
+
+            <!-- Filter Bar -->
+            <div class="flex flex-wrap gap-3 justify-center mb-4 fade-up">
+                <div class="relative">
+                    <i class="fas fa-search absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
+                    <input type="text" id="searchMobil" placeholder="Cari mobil..." class="pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-sm w-56 transition">
+                </div>
+                <select id="filterKapasitas" class="px-4 py-2.5 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-sm transition">
+                    <option value="">Semua Kapasitas</option>
+                    <option value="5">2-5 Orang</option>
+                    <option value="7">6-7 Orang</option>
+                    <option value="12">8-15 Orang</option>
+                    <option value="20">16+ Orang</option>
+                </select>
+                <select id="filterHarga" class="px-4 py-2.5 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-sm transition">
+                    <option value="">Semua Harga</option>
+                    <option value="400000">Di bawah Rp 400rb</option>
+                    <option value="700000">Rp 400rb - Rp 700rb</option>
+                    <option value="1200000">Rp 700rb - Rp 1.2jt</option>
+                    <option value="9999999">Di atas Rp 1.2jt</option>
+                </select>
+                <select id="filterTransmisi" class="px-4 py-2.5 rounded-xl border border-gray-200 dark:border-darkborder bg-white dark:bg-darkcard text-sm transition">
+                    <option value="">Semua Transmisi</option>
+                    <option value="Otomatis">Otomatis</option>
+                    <option value="Manual">Manual</option>
+                </select>
+            </div>
+            <p id="armadaCount" class="text-center text-sm text-gray-400 mb-6"></p>
+
+            <!-- Armada Grid -->
+            <div id="armadaGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Diisi oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Wisata Section -->
+    <section id="wisata" class="py-20 bg-softgray dark:bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">DESTINASI</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Explore Lombok Tour</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+                <p class="text-gray-500 dark:text-gray-400 max-w-lg mx-auto">Temukan keindahan alam dan budaya Lombok dengan paket wisata terbaik kami</p>
+            </div>
+            <div id="wisataGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- Diisi oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Paket Tour Section -->
+    <section id="paket" class="py-20 bg-white dark:bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">PAKET TOUR</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Pilihan Paket Wisata</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+                <p class="text-gray-500 dark:text-gray-400 max-w-lg mx-auto">Berbagai pilihan paket tour Lombok sesuai kebutuhan dan budget Anda</p>
+            </div>
+            <div id="paketGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- Diisi oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Airport Transfer Section -->
+    <section id="transfer" class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 hero-parallax" style="background-image: url('one.png');">
+            <!-- Ganti URL gambar ini dengan foto asli bandara Lombok -->
+        </div>
+        <div class="absolute inset-0 hero-gradient"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="fade-left">
+                    <span class="inline-block bg-white/15 text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-4 backdrop-blur-md">AIRPORT TRANSFER</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Lombok Airport Transfer</h2>
+                    <div class="section-divider mb-6"></div>
+                    <p class="text-white/80 mb-8 leading-relaxed">Layanan antar jemput Bandara Internasional Lombok dengan kendaraan nyaman dan driver profesional. Tepat waktu, harga transparan, tanpa biaya tersembunyi.</p>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start gap-3"><div class="w-8 h-8 rounded-lg bg-gold/20 flex items-center justify-center flex-shrink-0 mt-0.5"><i class="fas fa-plane-arrival text-gold text-sm"></i></div><div><h4 class="text-white font-semibold text-sm">Antar Jemput Bandara</h4><p class="text-white/60 text-xs">Penjemputan di terminal kedatangan dengan papan nama</p></div></div>
+                        <div class="flex items-start gap-3"><div class="w-8 h-8 rounded-lg bg-gold/20 flex items-center justify-center flex-shrink-0 mt-0.5"><i class="fas fa-car text-gold text-sm"></i></div><div><h4 class="text-white font-semibold text-sm">Pilihan Kendaraan Lengkap</h4><p class="text-white/60 text-xs">Dari city car hingga minibus untuk rombongan</p></div></div>
+                        <div class="flex items-start gap-3"><div class="w-8 h-8 rounded-lg bg-gold/20 flex items-center justify-center flex-shrink-0 mt-0.5"><i class="fas fa-clock text-gold text-sm"></i></div><div><h4 class="text-white font-semibold text-sm">Monitoring Jadwal Penerbangan</h4><p class="text-white/60 text-xs">Driver menunggu meskipun penerbangan terlambat</p></div></div>
+                        <div class="flex items-start gap-3"><div class="w-8 h-8 rounded-lg bg-gold/20 flex items-center justify-center flex-shrink-0 mt-0.5"><i class="fas fa-tag text-gold text-sm"></i></div><div><h4 class="text-white font-semibold text-sm">Harga Transparan</h4><p class="text-white/60 text-xs">Sekali bayar, tidak ada biaya tambahan</p></div></div>
+                    </div>
+                    <a href="#booking" class="btn-gold px-8 py-3.5 rounded-full font-semibold text-sm inline-flex items-center gap-2">
+                        <i class="fab fa-whatsapp"></i> BOOKING TRANSFER
+                    </a>
+                </div>
+                <div class="fade-right">
+                    <div class="glass rounded-2xl p-6 space-y-4">
+                        <h3 class="text-white font-bold text-lg mb-2">Tarif Airport Transfer</h3>
+                        <div class="flex justify-between items-center py-3 border-b border-white/10"><span class="text-white/80 text-sm">City Car (Brio, Agya, Calya)</span><span class="text-gold font-bold">Rp 150.000</span></div>
+                        <div class="flex justify-between items-center py-3 border-b border-white/10"><span class="text-white/80 text-sm">MPV (Avanza, Xpander, Ertiga)</span><span class="text-gold font-bold">Rp 250.000</span></div>
+                        <div class="flex justify-between items-center py-3 border-b border-white/10"><span class="text-white/80 text-sm">Innova Reborn / Zenix</span><span class="text-gold font-bold">Rp 400.000</span></div>
+                        <div class="flex justify-between items-center py-3 border-b border-white/10"><span class="text-white/80 text-sm">Fortuner / Pajero Sport</span><span class="text-gold font-bold">Rp 600.000</span></div>
+                        <div class="flex justify-between items-center py-3 border-b border-white/10"><span class="text-white/80 text-sm">Toyota Hiace</span><span class="text-gold font-bold">Rp 800.000</span></div>
+                        <div class="flex justify-between items-center py-3"><span class="text-white/80 text-sm">Alphard / Camry</span><span class="text-gold font-bold">Rp 1.200.000</span></div>
+                        <p class="text-white/50 text-xs text-center pt-2">*Tarif untuk area Mataram, Senggigi, Kuta. Tujuan lain mungkin berbeda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-softgray dark:bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">GALERI</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Galeri Perjalanan</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 mb-8 fade-up">
+                <button class="filter-btn active px-5 py-2 rounded-full border border-gray-200 dark:border-darkborder text-sm font-medium transition" data-filter="all">Semua</button>
+                <button class="filter-btn px-5 py-2 rounded-full border border-gray-200 dark:border-darkborder text-sm font-medium transition dark:text-gray-300" data-filter="mobil">Mobil</button>
+                <button class="filter-btn px-5 py-2 rounded-full border border-gray-200 dark:border-darkborder text-sm font-medium transition dark:text-gray-300" data-filter="wisata">Wisata</button>
+                <button class="filter-btn px-5 py-2 rounded-full border border-gray-200 dark:border-darkborder text-sm font-medium transition dark:text-gray-300" data-filter="customer">Customer</button>
+            </div>
+            <div id="galleryGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- Diisi oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox fixed inset-0 bg-black/90 z-[80] flex items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-2xl hover:text-gold transition" aria-label="Tutup"><i class="fas fa-times"></i></button>
+        <button onclick="lightboxPrev()" class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition" aria-label="Sebelumnya"><i class="fas fa-chevron-left"></i></button>
+        <img id="lightboxImg" src="" alt="" class="max-w-full max-h-[85vh] object-contain rounded-lg">
+        <button onclick="lightboxNext()" class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition" aria-label="Selanjutnya"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="py-20 bg-white dark:bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">TESTIMONI</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Apa Kata Mereka</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+            </div>
+            <div class="relative">
+                <div id="testimoniSlider" class="testimonial-slider flex gap-6 overflow-x-auto pb-4 px-2">
+                    <!-- Diisi oleh JavaScript -->
+                </div>
+                <div class="flex justify-center gap-3 mt-6">
+                    <button onclick="slideTestimoni(-1)" class="w-11 h-11 rounded-full border-2 border-navy/20 dark:border-white/20 flex items-center justify-center text-navy dark:text-white hover:bg-navy hover:text-white dark:hover:bg-white dark:hover:text-navy transition" aria-label="Sebelumnya"><i class="fas fa-chevron-left text-sm"></i></button>
+                    <button onclick="slideTestimoni(1)" class="w-11 h-11 rounded-full border-2 border-navy/20 dark:border-white/20 flex items-center justify-center text-navy dark:text-white hover:bg-navy hover:text-white dark:hover:bg-white dark:hover:text-navy transition" aria-label="Selanjutnya"><i class="fas fa-chevron-right text-sm"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section id="tentang" class="py-20 bg-softgray dark:bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="fade-left">
+                    <div class="relative">
+                        <!-- Ganti URL gambar ini dengan foto asli tentang kami / team -->
+                        <img src="one.png" alt="Tentang ONE TRANS LOMBOK" class="rounded-2xl shadow-2xl w-full object-cover">
+                        <div class="absolute -bottom-6 -right-6 bg-navy dark:bg-darkcard text-white rounded-2xl p-5 shadow-xl">
+                            <div class="text-3xl font-black text-gold">8+</div>
+                            <div class="text-sm text-white/80">Tahun Pengalaman</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fade-right">
+                    <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">TENTANG KAMI</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-4">ONE TRANS LOMBOK</h2>
+                    <div class="section-divider mb-6"></div>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">ONE TRANS LOMBOK adalah perusahaan rental mobil dan travel wisata terpercaya di Lombok yang telah melayani ribuan customer sejak 2016. Kami berkomitmen memberikan pelayanan terbaik dengan armada terawat, driver profesional, dan harga yang transparan.</p>
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-start gap-3"><i class="fas fa-shield-halved text-royal mt-1"></i><div><h4 class="font-semibold text-sm text-navy dark:text-white">Keamanan Utama</h4><p class="text-xs text-gray-500 dark:text-gray-400">Keselamatan customer prioritas kami</p></div></div>
+                        <div class="flex items-start gap-3"><i class="fas fa-car-side text-royal mt-1"></i><div><h4 class="font-semibold text-sm text-navy dark:text-white">Armada Terawat</h4><p class="text-xs text-gray-500 dark:text-gray-400">Rutin perawatan dan pengecekan</p></div></div>
+                        <div class="flex items-start gap-3"><i class="fas fa-user-tie text-royal mt-1"></i><div><h4 class="font-semibold text-sm text-navy dark:text-white">Driver Profesional</h4><p class="text-xs text-gray-500 dark:text-gray-400">Berpengalaman dan ramah</p></div></div>
+                        <div class="flex items-start gap-3"><i class="fas fa-bolt text-royal mt-1"></i><div><h4 class="font-semibold text-sm text-navy dark:text-white">Respons Cepat</h4><p class="text-xs text-gray-500 dark:text-gray-400">Pelayanan 24 jam nonstop</p></div></div>
+                        <div class="flex items-start gap-3"><i class="fas fa-tags text-royal mt-1"></i><div><h4 class="font-semibold text-sm text-navy dark:text-white">Harga Transparan</h4><p class="text-xs text-gray-500 dark:text-gray-400">Tanpa biaya tersembunyi</p></div></div>
+                        <div class="flex items-start gap-3"><i class="fas fa-headset text-royal mt-1"></i><div><h4 class="font-semibold text-sm text-navy dark:text-white">Support 24/7</h4><p class="text-xs text-gray-500 dark:text-gray-400">Siap membantu kapan saja</p></div></div>
+                    </div>
+                    <a href="#booking" class="btn-primary text-white px-8 py-3.5 rounded-full font-semibold text-sm inline-flex items-center gap-2">
+                        <i class="fas fa-phone"></i> HUBUNGI KAMI
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 bg-white dark:bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">BLOG & TIPS</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Artikel Terbaru</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+            </div>
+            <div id="blogGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- Diisi oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 bg-softgray dark:bg-darkbg">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">FAQ</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Pertanyaan Umum</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+            </div>
+            <div id="faqContainer" class="space-y-3 fade-up">
+                <!-- Diisi oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak & Maps Section -->
+    <section id="kontak" class="py-20 bg-white dark:bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 fade-up">
+                <span class="inline-block bg-royal/10 text-royal dark:text-royal-light text-sm font-semibold px-4 py-1.5 rounded-full mb-4">KONTAK</span>
+                <h2 class="text-3xl sm:text-4xl font-bold text-navy dark:text-white mb-3">Hubungi Kami</h2>
+                <div class="section-divider mx-auto mb-4"></div>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-10">
+                <div class="fade-left space-y-6">
+                    <div class="flex items-start gap-4 p-5 rounded-2xl bg-softgray dark:bg-darkcard border border-gray-100 dark:border-darkborder">
+                        <div class="w-12 h-12 rounded-xl navy-gradient flex items-center justify-center flex-shrink-0"><i class="fas fa-map-marker-alt text-white"></i></div>
+                        <div><h4 class="font-semibold text-navy dark:text-white mb-1">Alamat</h4><p class="text-gray-500 dark:text-gray-400 text-sm">Jl. samdubaya mandalika bertais</p></div>
+                    </div>
+                    <div class="flex items-start gap-4 p-5 rounded-2xl bg-softgray dark:bg-darkcard border border-gray-100 dark:border-darkborder">
+                        <div class="w-12 h-12 rounded-xl navy-gradient flex items-center justify-center flex-shrink-0"><i class="fab fa-whatsapp text-white"></i></div>
+                        <div><h4 class="font-semibold text-navy dark:text-white mb-1">WhatsApp</h4><p class="text-gray-500 dark:text-gray-400 text-sm">+62 877-4304-5817</p></div>
+                    </div>
+                    <div class="flex items-start gap-4 p-5 rounded-2xl bg-softgray dark:bg-darkcard border border-gray-100 dark:border-darkborder">
+                        <div class="w-12 h-12 rounded-xl navy-gradient flex items-center justify-center flex-shrink-0"><i class="fas fa-envelope text-white"></i></div>
+                        <div><h4 class="font-semibold text-navy dark:text-white mb-1">Email</h4><p class="text-gray-500 dark:text-gray-400 text-sm">hilwan12300@gmail.com</p></div>
+                    </div>
+                    <div class="flex items-start gap-4 p-5 rounded-2xl bg-softgray dark:bg-darkcard border border-gray-100 dark:border-darkborder">
+                        <div class="w-12 h-12 rounded-xl navy-gradient flex items-center justify-center flex-shrink-0"><i class="fas fa-clock text-white"></i></div>
+                        <div><h4 class="font-semibold text-navy dark:text-white mb-1">Jam Operasional</h4><p class="text-gray-500 dark:text-gray-400 text-sm">24 Jam, Setiap Hari</p></div>
+                    </div>
+                    <div class="flex gap-3 pt-2">
+                        <a href="#" class="w-11 h-11 rounded-xl bg-navy/10 dark:bg-white/10 flex items-center justify-center text-navy dark:text-white hover:bg-navy hover:text-white dark:hover:bg-royal transition" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="w-11 h-11 rounded-xl bg-navy/10 dark:bg-white/10 flex items-center justify-center text-navy dark:text-white hover:bg-navy hover:text-white dark:hover:bg-royal transition" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="w-11 h-11 rounded-xl bg-navy/10 dark:bg-white/10 flex items-center justify-center text-navy dark:text-white hover:bg-navy hover:text-white dark:hover:bg-royal transition" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="w-11 h-11 rounded-xl bg-navy/10 dark:bg-white/10 flex items-center justify-center text-navy dark:text-white hover:bg-navy hover:text-white dark:hover:bg-royal transition" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="fade-right rounded-2xl overflow-hidden shadow-lg h-[400px]">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63226.34547726717!2d116.04!3d-8.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb0db0ee33333%3A0x5030bfbca83b1b0!2sSenggigi%2C%20Lombok!5e0!3m2!1sid!2sid!4v1700000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy dark:bg-darkcard text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+                <div class="col-span-2 md:col-span-1">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-royal flex items-center justify-center"><i class="fas fa-car-side text-white"></i></div>
+                        <div><span class="font-bold text-lg block leading-tight">ONE TRANS</span><span class="text-gold text-[10px] font-semibold tracking-[3px]">LOMBOK</span></div>
+                    </div>
+                    <p class="text-white/60 text-sm leading-relaxed mb-4">Rental mobil dan travel wisata Lombok terpercaya. Armada terawat, driver profesional, harga transparan.</p>
+                    <div class="flex gap-2">
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-royal flex items-center justify-center transition text-sm" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-royal flex items-center justify-center transition text-sm" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-royal flex items-center justify-center transition text-sm" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-royal flex items-center justify-center transition text-sm" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-sm mb-4 text-gold">Layanan</h4>
+                    <ul class="space-y-2.5 text-white/60 text-sm">
+                        <li><a href="#armada" class="hover:text-white transition">Rental Mobil</a></li>
+                        <li><a href="#transfer" class="hover:text-white transition">Airport Transfer</a></li>
+                        <li><a href="#wisata" class="hover:text-white transition">Travel Wisata</a></li>
+                        <li><a href="#paket" class="hover:text-white transition">Paket Tour</a></li>
+                        <li><a href="#armada" class="hover:text-white transition">Sewa Lepas Kunci</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-sm mb-4 text-gold">Informasi</h4>
+                    <ul class="space-y-2.5 text-white/60 text-sm">
+                        <li><a href="#tentang" class="hover:text-white transition">Tentang Kami</a></li>
+                        <li><a href="#testimoni" class="hover:text-white transition">Testimoni</a></li>
+                        <li><a href="#blog" class="hover:text-white transition">Blog</a></li>
+                        <li><a href="#faq" class="hover:text-white transition">FAQ</a></li>
+                        <li><a href="#kontak" class="hover:text-white transition">Kontak</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-sm mb-4 text-gold">Kontak</h4>
+                    <ul class="space-y-2.5 text-white/60 text-sm">
+                        <li><i class="fas fa-phone mr-2 text-royal"></i>+62 877-4304-5817</li>
+                        <li><i class="fas fa-envelope mr-2 text-royal"></i>hilwan12300@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2 text-royal"></i>Jl. sandubaya mandalika bertais</li>
+                        <li><i class="fas fa-clock mr-2 text-royal"></i>24 Jam</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <p class="text-white/40 text-sm"> ONE TRANS LOMBOK. All rights reserved.</p>
+                <div class="flex gap-6 text-white/40 text-sm">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/6287743045817?text=Halo%20ONE%20TRANS%20LOMBOK%2C%20saya%20ingin%20bertanya." target="_blank" class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center text-white shadow-lg shadow-green-500/30 hover:shadow-green-500/50 transition-all duration-300 hover:scale-110" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <!-- Floating Call -->
+    <a href="tel:+6281234567890" class="fixed bottom-6 right-24 z-50 w-14 h-14 bg-royal hover:bg-royal-dark rounded-full flex items-center justify-center text-white shadow-lg shadow-royal/30 hover:shadow-royal/50 transition-all duration-300 hover:scale-110" aria-label="Telepon">
+        <i class="fas fa-phone text-lg"></i>
+    </a>
+
+    <!-- Scroll To Top -->
+    <button id="scrollTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})" class="fixed bottom-24 right-6 z-50 w-12 h-12 bg-navy dark:bg-darkcard border border-white/10 rounded-full flex items-center justify-center text-white shadow-lg transition-all duration-300 hover:scale-110 opacity-0 pointer-events-none" aria-label="Ke atas">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Detail Modal -->
+    <div id="detailModal" class="modal-overlay fixed inset-0 bg-black/70 z-[80] flex items-center justify-center p-4">
+        <div class="modal-content bg-white dark:bg-darkcard rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="sticky top-0 bg-white dark:bg-darkcard border-b border-gray-100 dark:border-darkborder p-5 flex items-center justify-between z-10 rounded-t-2xl">
+                <h3 id="modalTitle" class="font-bold text-lg text-navy dark:text-white"></h3>
+                <button onclick="closeModal()" class="w-9 h-9 rounded-full bg-gray-100 dark:bg-darkborder hover:bg-red-500 hover:text-white flex items-center justify-center transition" aria-label="Tutup"><i class="fas fa-times text-sm"></i></button>
+            </div>
+            <div id="modalBody" class="p-5"></div>
+        </div>
+    </div>
+
+    <!-- Discount Popup -->
+    <div id="discountPopup" class="popup-overlay fixed inset-0 bg-black/60 z-[90] flex items-center justify-center p-4">
+        <div class="popup-content bg-white dark:bg-darkcard rounded-3xl max-w-md w-full overflow-hidden shadow-2xl">
+            <div class="navy-gradient p-6 text-center relative">
+                <button onclick="closePopup()" class="absolute top-4 right-4 text-white/70 hover:text-white transition" aria-label="Tutup"><i class="fas fa-times"></i></button>
+                <div class="w-16 h-16 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-3"><i class="fas fa-gift text-gold text-2xl"></i></div>
+                <h3 class="text-white font-bold text-xl">Penawaran Spesial!</h3>
+            </div>
+            <div class="p-6 text-center">
+                <p class="text-gray-600 dark:text-gray-400 mb-2">Dapatkan diskon <strong class="text-gold text-2xl font-black">15%</strong> untuk pemesanan pertama Anda</p>
+                <p class="text-gray-400 text-sm mb-5">Gunakan kode promo saat booking</p>
+                <div class="bg-softgray dark:bg-darkbg border-2 border-dashed border-gold/40 rounded-xl py-3 px-6 inline-block mb-6">
+                    <span class="text-2xl font-black text-navy dark:text-white tracking-widest">FIRST15</span>
+                </div>
+                <br>
+                <a href="#booking" onclick="closePopup()" class="btn-primary text-white px-8 py-3 rounded-full font-semibold text-sm inline-flex items-center gap-2">
+                    <i class="fab fa-whatsapp"></i> AMBIL PROMO SEKARANG
+                </a>
+                <button onclick="closePopup()" class="block mx-auto mt-3 text-gray-400 text-xs hover:text-gray-600 dark:hover:text-gray-300 transition">Tidak, terima kasih</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    /* ============================
+       DATA ARMADA (20 Kendaraan)
+    ============================ */
+    const WA_NUMBER = '6287743045817'; // Ganti dengan nomor WhatsApp asli
+
+    const armadaData = [
+        { id:1, nama:'Toyota Avanza', harga:350000, kapasitas:7, bagasi:'2 Koper', transmisi:'Otomatis', bbm:'Bensin', tahun:2023, ac:true, bluetooth:true, usb:true, fasilitas:'AC, Bluetooth, USB, Airbag', deskripsi:'Kendaraan keluarga paling populer di Indonesia. Nyaman untuk perjalanan dalam kota maupun luar kota di Lombok.', rating:4.8, review:124, img:'' },
+        { id:2, nama:'Toyota Innova Reborn', harga:500000, kapasitas:7, bagasi:'3 Koper', transmisi:'Otomatis', bbm:'Diesel', tahun:2023, ac:true, bluetooth:true, usb:true, fasilitas:'AC Dual, Bluetooth, USB, Airbag, Cruise Control', deskripsi:'MPV premium Toyota yang sangat nyaman untuk perjalanan jauh. Suspensi empuk dan kabin senyap.', rating:4.9, review:198, img:'innova.jpg' },
+        { id:3, nama:'Toyota Innova Zenix', harga:750000, kapasitas:7, bagasi:'3 Koper', transmisi:'Otomatis', bbm:'Hybrid', tahun:2024, ac:true, bluetooth:true, usb:true, fasilitas:'AC Dual, Bluetooth, USB, Airbag, Toyota Safety Sense', deskripsi:'Generasi terbaru Innova dengan teknologi hybrid. Lebih irit dan ramah lingkungan dengan fitur keselamatan canggih.', rating:4.9, review:67, img:'zenix.jpg' },
+        { id:4, nama:'Toyota Fortuner', harga:100000, kapasitas:7, bagasi:'3 Koper', transmisi:'Otomatis', bbm:'Diesel', tahun:2023, ac:true, bluetooth:true, usb:true, fasilitas:'AC Dual, Bluetooth, USB, 4x4, Cruise Control, Parking Camera', deskripsi:'SUV premium untuk petualangan di Lombok. Ground clearance tinggi cocok untuk medan pegunungan Sembalun.', rating:4.9, review:89, img:'fortuner.jpg' },
+        { id:5, nama:'Mitsubishi Xpander', harga:350000, kapasitas:7, bagasi:'2 Koper', transmisi:'Otomatis', bbm:'Bensin', tahun:2023, ac:true, bluetooth:true, usb:true, fasilitas:'AC, Bluetooth, USB, Airbag', deskripsi:'MPV stylish dengan kabin luas dan suspensi nyaman. Pilihan tepat untuk keluarga berwisata di Lombok.', rating:4.7, review:156, img:'expander.jpg' },
+        { id:6, nama:'Pajero Sport', harga:1000000, kapasitas:7, bagasi:'3 Koper', transmisi:'Otomatis', bbm:'Diesel', tahun:2023, ac:true, bluetooth:true, usb:true, fasilitas:'AC Dual, Bluetooth, USB, 4x4, Cruise Control', deskripsi:'SUV tangguh Mitsubishi untuk segala medan Lombok. Desain maskulin dan performa mesin diesel yang bertenaga.', rating:4.8, review:78, img:'pajero.jpg' },
+        { id:7, nama:'Honda Brio', harga:300000, kapasitas:5, bagasi:'1 Koper', transmisi:'Otomatis', bbm:'Bensin', tahun:2023, ac:true, bluetooth:false, usb:true, fasilitas:'AC, USB, Airbag', deskripsi:'City car compact dan lincah untuk perjalanan urban. Sangat irit bahan bakar, cocok untuk couple.', rating:4.6, review:93, img:'brio.jpg' },
+        { id:9, nama:'Toyota Rush', harga:350000, kapasitas:7, bagasi:'2 Koper', transmisi:'Otomatis', bbm:'Bensin', tahun:2023, ac:true, bluetooth:true, usb:true, fasilitas:'AC, Bluetooth, USB, Airbag', deskripsi:'SUV 7-seater yang tangguh dan ekonomis. Ground clearance tinggi untuk jalanan Lombok yang berliku.', rating:4.7, review:112, img:'rush.jpg' },
+        { id:10, nama:'Toyota Raize', harga:350000, kapasitas:5, bagasi:'2 Koper', transmisi:'Otomatis', bbm:'Turbo', tahun:2024, ac:true, bluetooth:true, usb:true, fasilitas:'AC, Bluetooth, USB, Airbag, Toyota Safety Sense', deskripsi:'Compact SUV turbo dengan teknologi TSS. Kecil di luar, luas di dalam. Ideal untuk pasangan muda.', rating:4.7, review:54, img:'raize.jpg' },
+        { id:13, nama:'Hiace Premio', harga:1200000, kapasitas:15, bagasi:'5 Koper', transmisi:'Manual', bbm:'Diesel', tahun:2023, ac:true, bluetooth:true, usb:true, fasilitas:'AC Double Blower, USB, Bagasi Besar', deskripsi:'Minibus ideal untuk rombongan besar. Kapasitas 15 penumpang dengan kargo yang luas.', rating:4.8, review:134, img:'premio.jpg' },
+        { id:15, nama:'Toyota Alphard', harga:2500000, kapasitas:7, bagasi:'3 Koper', transmisi:'Otomatis', bbm:'Bensin', tahun:2024, ac:true, bluetooth:true, usb:true, fasilitas:'AC Tri-Zone, Bluetooth, USB, Captain Seat, Moonroof, Rear Entertainment', deskripsi:'Luxury MPV terbaik untuk executive dan VIP. Kabin super mewah dengan kursi captain seat.', rating:5.0, review:45, img:'alpad.jpg' },
+        { id:16, nama:'Daihatsu Roxy', harga:350000, kapasitas:5, bagasi:'2 Koper', transmisi:'Otomatis', bbm:'Bensin', tahun:2024, ac:true, bluetooth:true, usb:true, fasilitas:'AC Dual Zone, Bluetooth, USB, JBL Audio, Parking Camera', deskripsi:'Sedan premium untuk kebutuhan bisnis dan VIP transfer. Kenyamanan kelas atas dengan teknologi canggih.', rating:4.9, review:38, img:'roxy.jpg' },
+        { id:18, nama:'Toyota Calya', harga:300000, kapasitas:7, bagasi:'1 Koper', transmisi:'Manual', bbm:'Bensin', tahun:2023, ac:true, bluetooth:false, usb:true, fasilitas:'AC, USB, Airbag', deskripsi:'MPV ekonomis 7 penumpang terjangkau. Pilihan paling hemat untuk rombongan kecil.', rating:4.5, review:76, img:'cayla.jpg' },
+        { id:19, nama:'Toyota Agya', harga:300000, kapasitas:5, bagasi:'1 Koper', transmisi:'Otomatis', bbm:'Bensin', tahun:2024, ac:true, bluetooth:true, usb:true, fasilitas:'AC, Bluetooth, USB, Airbag', deskripsi:'City car terbaru Toyota dengan desain sporty. Kecil, lincah, dan sangat irit bahan bakar.', rating:4.6, review:61, img:'agya.jpg' },
+        { id:20, nama:'Daihatsu Ayla', harga:300000, kapasitas:7, bagasi:'2 Koper', transmisi:'Otomatis', bbm:'Bensin', tahun:2023, ac:true, bluetooth:true, usb:true, fasilitas:'AC, Bluetooth, USB, Airbag, Cruise Control', deskripsi:'SUV 7-seater Suzuki yang gagah dan berfitur lengkap. Ground clearance tinggi untuk segala medan.', rating:4.6, review:69, img:'ayla.jpg' }
+    ];
+
+    /* ============================
+       DATA WISATA (9 Destinasi)
+    ============================ */
+    const wisataData = [
+        { id:1, nama:'Pantai Kuta Mandalika', harga:250000, durasi:'Full Day', lokasi:'Kuta, Lombok Tengah', maps:'mandalika.jpg', deskripsi:'Pantai eksotis dengan pasir putih berkilau dan bukit-bukit yang memukau. Area Mandalika yang sedang berkembang pesat sebagai destinasi wisata kelas dunia.', itinerary:['08:00 - Penjemputan di hotel','09:30 - Tiba di Pantai Kuta Mandalika','10:00 - Menikmati pantai, foto-foto','12:00 - Makan siang di restoran lokal','13:30 - Mengunjungi pantai sekitar','16:00 - Kembali ke hotel'], fasilitas:['Transportasi AC','Driver guide','Air mineral'], include:['Kendaraan + Driver + BBM','Air mineral'], exclude:['Makan siang','Tiket masuk','Tip driver'], tips:'Bawa sunscreen dan topi. Waktu terbaik pagi atau sore untuk foto.', rating:4.8, review:234, img:'mandalika.jpg', gallery:['https://picsum.photos/600/400?random=121','https://picsum.photos/600/400?random=122','https://picsum.photos/600/400?random=123'] },
+        { id:2, nama:'Bukit Merese', harga:200000, durasi:'Half Day', lokasi:'Kuta, Lombok Tengah', maps:'bukit.jpg', deskripsi:'Bukit dengan pemandangan 360 derajat yang luar biasa. Dari puncak, Anda bisa melihat Pantai Kuta, Tanjung Aan, dan samudra Hindia yang membentang.', itinerary:['15:00 - Penjemputan di hotel','16:00 - Pendakian ke Bukit Merese','17:00 - Menikmati sunset dari puncak','18:30 - Kembali ke hotel'], fasilitas:['Transportasi AC','Driver guide'], include:['Kendaraan + Driver + BBM'], exclude:['Makan','Tiket masuk','Tip driver'], tips:'Datang sore hari untuk sunset spektakuler. Pakai sepatu yang nyaman.', rating:4.9, review:189, img:'bukit.jpg', gallery:['https://picsum.photos/600/400?random=124','https://picsum.photos/600/400?random=125'] },
+        { id:3, nama:'Pantai Tanjung Aan', harga:250000, durasi:'Full Day', lokasi:'Kuta, Lombok Tengah', maps:'aan.jpg', deskripsi:'Pantai dengan dua jenis pasir: putih halus seperti merica dan butiran kasar seperti biji jagung. Air laut yang jernih berwarna biru kehijauan.', itinerary:['08:00 - Penjemputan','09:30 - Tiba di Tanjung Aan','10:00 - Berenang dan snorkeling','12:00 - Makan siang seafood','14:00 - Eksplorasi pantai','16:30 - Kembali'], fasilitas:['Transportasi AC','Driver guide','Air mineral'], include:['Kendaraan + Driver + BBM','Air mineral'], exclude:['Makan','Alat snorkeling','Tip driver'], tips:'Bawa alat snorkeling sendiri untuk pengalaman terbaik.', rating:4.8, review:201, img:'aan.jpg', gallery:['https://picsum.photos/600/400?random=126','https://picsum.photos/600/400?random=127'] },
+        { id:4, nama:'Desa Sade', harga:200000, durasi:'Half Day', lokasi:'Pujut, Lombok Tengah', maps:'sade.jpg', deskripsi:'Desa adat Sasak yang mempertahankan tradisi dan arsitektur kuno. Rumah-rumah tradisional dengan lantai dari campuran tanah dan kerbau.', itinerary:['08:00 - Penjemputan','09:00 - Tiba di Desa Sade','09:30 - Tur desa dengan pemandu lokal','11:00 - Belajar tenun ikat','12:00 - Membeli suvenir','13:00 - Kembali'], fasilitas:['Transportasi AC','Pemandu lokal'], include:['Kendaraan + Driver + BBM','Guide lokal'], exclude:['Makan','Suvenir','Tip'], tips:'Hormati adat setempat. Jangan memotret tanpa izin penduduk.', rating:4.6, review:145, img:'sade.jpg', gallery:['https://picsum.photos/600/400?random=128','https://picsum.photos/600/400?random=129'] },
+        { id:5, nama:'Gili Trawangan', harga:400000, durasi:'Full Day', lokasi:'Gili Indah, Lombok Utara', maps:'gili.jpg', deskripsi:'Pulau kecil tanpa kendaraan bermotor yang terkenal dengan snorkeling, diving, dan sunset yang memukau. Nightlife yang ramai di malam hari.', itinerary:['07:00 - Penjemputan','08:30 - Pelabuhan Teluk Nare','09:00 - Naik boat ke Gili Trawangan','09:30 - Snorkeling dengan turtle','12:00 - Makan siang di warung','14:00 - Sepeda keliling pulau','16:00 - Kembali dengan boat','17:30 - Tiba di hotel'], fasilitas:['Transportasi','Boat PP','Sepeda','Snorkeling gear'], include:['Kendaraan + Driver + BBM','Tiket boat PP','Sewa sepeda','Alat snorkeling'], exclude:['Makan','Diving','Tip'], tips:'Bawa uang tunai. Tidak ada ATM di pulau.', rating:4.9, review:312, img:'gili.jpg', gallery:['https://picsum.photos/600/400?random=130','https://picsum.photos/600/400?random=131'] },
+        { id:6, nama:'Air Terjun Sendang Gile', harga:300000, durasi:'Full Day', lokasi:'Senaru, Lombok Utara', maps:'air.jpg', deskripsi:'Air terjun spektakuler di kaki Gunung Rinjani dengan ketinggian sekitar 35 meter. Suara gemuruh air dan hutan tropis yang asri.', itinerary:['07:00 - Penjemputan','09:00 - Tiba di Senaru','09:30 - Trekking ke Sendang Gile','10:30 - Menikmati air terjun','12:00 - Makan siang','13:30 - Air Terjun Tiu Kelep (opsional)','16:00 - Kembali'], fasilitas:['Transportasi AC','Guide trekking'], include:['Kendaraan + Driver + BBM','Guide lokal'], exclude:['Makan','Tiket masuk','Tip guide'], tips:'Pakai sepatu anti selip. Bawa baju ganti.', rating:4.8, review:178, img:'air.jpg', gallery:['https://picsum.photos/600/400?random=132','https://picsum.photos/600/400?random=133'] },
+        { id:7, nama:'Sembalun', harga:450000, durasi:'Full Day', lokasi:'Sembalun, Lombok Timur', maps:'sembalun.jpg', deskripsi:'Dataran tinggi di kaki Gunung Rinjani dengan pemandangan savana yang menakjubkan. Udara sejuk dan hamparan hijau yang luas.', itinerary:['06:00 - Penjemputan','08:00 - Tiba di Sembalun','08:30 - Bukit Sembalun (sunrise point)','10:00 - Desa Sembalun Lawang','11:00 - Pergi ke kebun strawberry','12:00 - Makan siang','13:30 - Air Terjun Mangku Sakti','16:00 - Kembali'], fasilitas:['Transportasi AC','Guide lokal'], include:['Kendaraan + Driver + BBM','Guide lokal'], exclude:['Makan','Tiket masuk','Tip'], tips:'Bawa jaket karena suhu bisa turun hingga 18 derajat.', rating:4.9, review:156, img:'sembalun.jpg', gallery:['https://picsum.photos/600/400?random=134','https://picsum.photos/600/400?random=135'] },
+        { id:8, nama:'Pantai Pink', harga:500000, durasi:'Full Day', lokasi:'Jerowaru, Lombok Timur', maps:'pink.jpg', deskripsi:'Salah satu dari 7 pantai pink di dunia. Pasirnya berwarna pink akibat campuran pasir putih dengan serpihan koral merah muda.', itinerary:['07:00 - Penjemputan','09:00 - Dermaga Tanjung Luar','09:30 - Naik boat ke Pantai Pink','10:00 - Snorkeling dan berenang','12:00 - Makan siang di pantai','13:30 - Pulau Gili Petelu','15:00 - Kembali','17:00 - Tiba di hotel'], fasilitas:['Transportasi','Boat PP','Snorkeling gear'], include:['Kendaraan + Driver + BBM','Tiket boat PP','Alat snorkeling'], exclude:['Makan','Tip'], tips:'Cuaca cerah membuat warna pink lebih terlihat. Hindari musim hujan.', rating:4.7, review:267, img:'pink.jpg', gallery:['https://picsum.photos/600/400?random=136','https://picsum.photos/600/400?random=137'] },
+        { id:9, nama:'Pantai Senggigi', harga:200000, durasi:'Half Day', lokasi:'Senggigi, Lombok Barat', maps:'senggigi.jpg', deskripsi:'Pantai paling populer di Lombok Barat dengan sunset yang legendaris. Deretan restoran, bar, dan hotel di sepanjang pantai.', itinerary:['15:00 - Penjemputan','15:30 - Tiba di Senggigi','16:00 - Menikmati pantai','17:30 - Sunset di batu besar','18:30 - Makan malam seafood','20:00 - Kembali ke hotel'], fasilitas:['Transportasi AC','Driver guide'], include:['Kendaraan + Driver + BBM'], exclude:['Makan','Minuman','Tip'], tips:'Pergi ke batu besar di ujung selatan untuk sunset terbaik.', rating:4.6, review:289, img:'senggigi.jpg', gallery:['https://picsum.photos/600/400?random=138','https://picsum.photos/600/400?random=139'] }
+    ];
+
+    /* ============================
+       DATA PAKET TOUR (10 Paket)
+    ============================ */
+    const paketData = [
+        { id:1, nama:'Half Day Tour', harga:350000, durasi:'6 Jam', img:'mandalika.jpg', include:['Kendaraan + Driver + BBM','Air mineral'], exclude:['Makan','Tiket masuk','Tip driver'], detail:'Paket setengah hari untuk mengunjungi 2-3 destinasi sekitar area hotel Anda.' },
+        { id:2, nama:'Full Day Tour', harga:550000, durasi:'10-12 Jam', img:'bukit.jpg', include:['Kendaraan + Driver + BBM','Air mineral'], exclude:['Makan','Tiket masuk','Tip driver','Parked'], detail:'Paket seharian penuh mengunjungi 4-6 destinasi wisata pilihan di Lombok.' },
+        { id:3, nama:'2 Hari 1 Malam', harga:1200000, durasi:'2D1N', img:'seger.jpg', include:['Kendaraan + Driver + BBM','Penginapan 1 malam','Air mineral','Sarapan'], exclude:['Makan siang & malam','Tiket masuk','Tip driver'], detail:'Paket short escape mengunjungi destinasi utama Lombok selama 2 hari.' },
+        { id:4, nama:'3 Hari 2 Malam', harga:2200000, durasi:'3D2N', img:'pink.jpg', include:['Kendaraan + Driver + BBM','Penginapan 2 malam','Air mineral','Sarapan 2x'], exclude:['Makan siang & malam','Tiket masuk','Tip driver','Boat ke Gili'], detail:'Paket lengkap mengeksplorasi Lombok: pantai selatan, air terjun, dan Gili.' },
+        { id:5, nama:'4 Hari 3 Malam', harga:3200000, durasi:'4D3N', img:'way.jpg', include:['Kendaraan + Driver + BBM','Penginapan 3 malam','Air mineral','Sarapan 3x','Boat PP ke Gili'], exclude:['Makan siang & malam','Tiket masuk','Tip driver','Alat snorkeling'], detail:'Paket komprehensif mengunjungi semua sisi Lombok: selatan, utara, timur, dan Gili Islands.' },
+        { id:6, nama:'Honeymoon Package', harga:2800000, durasi:'3D2N', img:'lombok2.jpg', include:['Kendaraan premium + Driver','Penginapan romantic 2 malam','Bouquet bunga','Dinner romantis 1x','Air mineral','Decor kamar'], exclude:['Makan siang','Tiket masuk','Tip driver'], detail:'Paket romantis untuk pasangan pengantin baru. Penginapan premium dan dinner sunset.' },
+        { id:7, nama:'Family Trip', harga:2500000, durasi:'3D2N', img:'surfing.jpg', include:['Hiace/Elf + Driver + BBM','Penginapan family 2 malam','Air mineral','Sarapan 2x'], exclude:['Makan siang & malam','Tiket masuk','Tip driver'], detail:'Paket keluarga dengan kendaraan besar, cocok untuk rombongan 10-15 orang.' },
+        { id:8, nama:'Private Tour', harga:800000, durasi:'Custom', img:'sembalun.jpg', include:['Kendaraan pilihan + Driver + BBM','Air mineral','Fleksibel itinerary'], exclude:['Makan','Tiket masuk','Penginapan','Tip driver'], detail:'Paket private dengan itinerary fleksibel sesuai keinginan Anda. Tanpa gabungan dengan rombongan lain.' },
+        { id:9, nama:'Island Hopping', harga:600000, durasi:'Full Day', img:'lm1.jpg', include:['Kendaraan + Driver','Boat PP','Alat snorkeling','Air mineral'], exclude:['Makan','Tiket masuk pulau','Tip driver & nahkoda'], detail:'Mengunjungi 3 Gili (Trawangan, Meno, Air) dalam satu hari. Snorkeling di spot terbaik.' },
+        { id:10, nama:'Snorkeling Tour', harga:500000, durasi:'Full Day', img:'snor.jpg', include:['Kendaraan + Driver','Boat PP','Alat snorkeling','Guide snorkeling','Air mineral'], exclude:['Makan','Tiket masuk','Tip'], detail:'Tur snorkeling khusus mengunjungi spot-spot terbaik: turtle point, coral garden, dan underwater statues.' }
+    ];
+
+    /* ============================
+       DATA GALLERY
+    ============================ */
+    const galleryData = [
+        { src:'https://picsum.photos/600/400?random=51', cat:'mobil', alt:'Gallery mobil 1' },
+        { src:'https://picsum.photos/600/400?random=52', cat:'wisata', alt:'Gallery wisata 1' },
+        { src:'https://picsum.photos/600/400?random=53', cat:'customer', alt:'Gallery customer 1' },
+        { src:'https://picsum.photos/600/400?random=54', cat:'mobil', alt:'Gallery mobil 2' },
+        { src:'https://picsum.photos/600/400?random=55', cat:'wisata', alt:'Gallery wisata 2' },
+        { src:'https://picsum.photos/600/400?random=56', cat:'customer', alt:'Gallery customer 2' },
+        { src:'https://picsum.photos/600/400?random=57', cat:'mobil', alt:'Gallery mobil 3' },
+        { src:'https://picsum.photos/600/400?random=58', cat:'wisata', alt:'Gallery wisata 3' },
+        { src:'https://picsum.photos/600/400?random=59', cat:'customer', alt:'Gallery customer 3' },
+        { src:'https://picsum.photos/600/400?random=60', cat:'mobil', alt:'Gallery mobil 4' },
+        { src:'https://picsum.photos/600/400?random=61', cat:'wisata', alt:'Gallery wisata 4' },
+        { src:'https://picsum.photos/600/400?random=62', cat:'customer', alt:'Gallery customer 4' }
+    ];
+
+    /* ============================
+       DATA TESTIMONI
+    ============================ */
+    const testimoniData = [
+        { nama:'Budi Santoso', lokasi:'Jakarta', rating:5, komentar:'Pelayanan luar biasa! Driver sangat ramah dan tahu semua jalan di Lombok. Mobil Innova Reborn-nya bersih dan wangi. Pasti pakai lagi.', img:'https://picsum.photos/100/100?random=71' },
+        { nama:'Sari Dewi', lokasi:'Bandung', rating:5, komentar:'Sudah 3 kali pakai ONE TRANS LOMBOK dan selalu puas. Harga transparan, tidak ada biaya tersembunyi. Recommended banget!', img:'https://picsum.photos/100/100?random=72' },
+        { nama:'Ahmad Rizki', lokasi:'Surabaya', rating:5, komentar:'Paket wisata 3D2N sangat worth it. Itinerary well-planned, driver on-time. Gili Trawangan dan Pantai Pink luar biasa!', img:'https://picsum.photos/100/100?random=73' },
+        { nama:'Lisa Permata', lokasi:'Bali', rating:4, komentar:'Airport transfer tepat waktu, driver sudah standby dengan papan nama. Mobil nyaman, AC dingin. Sangat profesional.', img:'https://picsum.photos/100/100?random=74' },
+        { nama:'Hendra Wijaya', lokasi:'Medan', rating:5, komentar:'Sewa Fortuner untuk ke Sembalun, sangat tangguh di jalanan tanjakan. Driver berpengalaman dan sabar. Top markotop!', img:'https://picsum.photos/100/100?random=75' },
+        { nama:'Rina Kartika', lokasi:'Yogyakarta', rating:5, komentar:'Honeymoon package yang sangat berkesan. Dekorasi kamar cantik, dinner sunset romantis. Terima kasih ONE TRANS LOMBOK!', img:'https://picsum.photos/100/100?random=76' },
+        { nama:'David Putra', lokasi:'Semarang', rating:4, komentar:'Family trip dengan Hiace, muat 14 orang nyaman. Anak-anak senang snorkeling di Gili. Driver sangat helpfull.', img:'https://picsum.photos/100/100?random=77' },
+        { nama:'Maya Anggraeni', lokasi:'Makassar', rating:5, komentar:'Alphard-nya mewah banget! Dipakai untuk jemput tamu VIP, mereka sangat terkesan. Pelayanan kelas atas.', img:'https://picsum.photos/100/100?random=78' }
+    ];
+
+    /* ============================
+       DATA BLOG
+    ============================ */
+    const blogData = [
+        { judul:'10 Tempat Wisata Terbaik di Lombok Wajib Dikunjungi', excerpt:'Lombok menyimpan keindahan alam yang luar biasa. Dari pantai eksotis hingga air terjun spektakuler, berikut rekomendasi destinasi...', tanggal:'15 Des 2024', kategori:'Wisata', img:'aan.jpg' },
+        { judul:'Panduan Lengkap Rental Mobil di Lombok: Tips & Harga', excerpt:'Ingin sewa mobil di Lombok? Simak panduan lengkap mulai dari cara booking, pilihan mobil, harga, hingga tips agar perjalanan...', tanggal:'12 Des 2024', kategori:'Tips', img:'pink.jpg' },
+        { judul:'Tips Liburan Lombok Pertama Kali: Hindari Kesalahan Ini', excerpt:'Pertama kali ke Lombok? Jangan sampai melakukan kesalahan yang bisa mengurangi keseruan liburan Anda. Berikut tips penting...', tanggal:'8 Des 2024', kategori:'Tips', img:'selonk.jpg' },
+        { judul:'Kuliner Khas Lombok yang Wajib Dicoba Traveler', excerpt:'Lombok tidak hanya punya pantai indah, tapi juga kuliner yang menggugah selera. Ayam taliwang, plecing kangkung, hingga...', tanggal:'5 Des 2024', kategori:'Kuliner', img:'kuta.jpg' },
+        { judul:'Rute Perjalanan Lombok 4 Hari 3 Malam yang Optimal', excerpt:'Rencanakan trip Lombok Anda dengan rute yang efisien. Hari pertama pantai selatan, hari kedua air terjun, hari ketiga Gili...', tanggal:'1 Des 2024', kategori:'Panduan', img:'pink.jpg' }
+    ];
+
+    /* ============================
+       DATA FAQ
+    ============================ */
+    const faqData = [
+        { q:'Bagaimana cara booking rental mobil?', a:'Anda bisa booking melalui form di website ini, WhatsApp, atau telepon langsung. Cukup isi data pemesanan dan kami akan mengkonfirmasi segera.' },
+        { q:'Apakah bisa sewa mobil tanpa driver (lepas kunci)?', a:'Ya, tersedia opsi lepas kunci untuk beberapa jenis mobil. Syaratnya: KTP, SIM A yang masih berlaku, dan deposit jaminan.' },
+        { q:'Bagaimana sistem pembayarannya?', a:'Pembayaran bisa dilakukan secara tunai saat serah terima kendaraan, atau transfer bank untuk booking lebih dari 1 hari.' },
+        { q:'Apakah harga sudah termasuk BBM?', a:'Untuk paket dengan driver, harga sudah termasuk BBM sesuai rute yang disepakati. Untuk lepas kunci, BBM ditanggung penyewa.' },
+        { q:'Apa yang terjadi jika mobil mengalami masalah di jalan?', a:'Kami menyediakan layanan darurat 24 jam. Jika terjadi masalah teknis, kami akan segera mengirimkan pengganti.' },
+        { q:'Bisa request jemput di bandara?', a:'Tentu! Kami menyediakan layanan airport transfer 24 jam. Driver akan menunggu di area kedatangan dengan papan nama.' },
+        { q:'Berapa lama sebelumnya harus booking?', a:'Idealnya 1-2 hari sebelumnya untuk ketersediaan unit. Namun untuk high season (Lebaran, Tahun Baru, Juli-Agustus), sebaiknya booking 1-2 minggu sebelumnya.' },
+        { q:'Apakah ada batasan area penggunaan mobil?', a:'Untuk rental dalam kota Mataram-Senggigi, tidak ada tambahan biaya. Untuk area jauh seperti Sembalun, Pantai Pink, atau Sekotong, ada tambahan biaya yang akan diinformasikan sebelumnya.' }
+    ];
+
+    /* ============================
+       FORMAT HARGA
+    ============================ */
+    function formatRupiah(n) {
+        return 'Rp ' + n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    }
+    function stars(r) {
+        let s = '';
+        for (let i = 1; i <= 5; i++) s += `<i class="fas fa-star ${i <= Math.round(r) ? '' : 'opacity-30'}"></i>`;
+        return `<span class="star-rating text-sm">${s}</span>`;
+    }
+
+    /* ============================
+       RENDER ARMADA
+    ============================ */
+    function renderArmada(data) {
+        const grid = document.getElementById('armadaGrid');
+        const count = document.getElementById('armadaCount');
+        if (!data) data = armadaData;
+        count.textContent = `Menampilkan ${data.length} kendaraan`;
+        grid.innerHTML = data.map(m => `
+            <div class="card-hover bg-white dark:bg-darkcard rounded-2xl overflow-hidden border border-gray-100 dark:border-darkborder shadow-sm">
+                <div class="img-zoom relative">
+                    <!-- Ganti URL gambar ini dengan foto asli ${m.nama} -->
+                    <img src="${m.img}" alt="${m.nama}" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="absolute top-3 left-3 bg-gold text-white text-xs font-bold px-3 py-1 rounded-full">${formatRupiah(m.harga)}<span class="font-normal opacity-80">/hari</span></div>
+                    ${m.id >= 15 ? '<div class="absolute top-3 right-3 bg-red-500 text-white text-[10px] font-bold px-2 py-1 rounded-full uppercase">Premium</div>' : ''}
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-navy dark:text-white text-base mb-2">${m.nama}</h3>
+                    <div class="flex items-center gap-3 mb-3 text-xs text-gray-500 dark:text-gray-400">
+                        <span><i class="fas fa-users mr-1 text-royal"></i>${m.kapasitas}</span>
+                        <span><i class="fas fa-cog mr-1 text-royal"></i>${m.transmisi}</span>
+                        <span><i class="fas fa-gas-pump mr-1 text-royal"></i>${m.bbm}</span>
+                    </div>
+                    <div class="flex flex-wrap gap-1.5 mb-3">
+                        ${m.ac ? '<span class="text-[10px] bg-blue-50 dark:bg-blue-900/30 text-royal dark:text-blue-300 px-2 py-0.5 rounded-full">AC</span>' : ''}
+                        ${m.bluetooth ? '<span class="text-[10px] bg-blue-50 dark:bg-blue-900/30 text-royal dark:text-blue-300 px-2 py-0.5 rounded-full">Bluetooth</span>' : ''}
+                        ${m.usb ? '<span class="text-[10px] bg-blue-50 dark:bg-blue-900/30 text-royal dark:text-blue-300 px-2 py-0.5 rounded-full">USB</span>' : ''}
+                    </div>
+                    <div class="flex items-center gap-2 mb-4">${stars(m.rating)}<span class="text-xs text-gray-400">(${m.review})</span></div>
+                    <div class="flex gap-2">
+                        <button onclick="showMobilDetail(${m.id})" class="flex-1 btn-outline py-2.5 rounded-xl text-xs font-semibold">DETAIL MOBIL</button>
+                        <a href="https://wa.me/${6287743045817}?text=${encodeURIComponent('Halo ONE TRANS LOMBOK, saya ingin booking '+m.nama+' ('+formatRupiah(m.harga)+'/hari)')}" target="_blank" class="flex-1 btn-primary text-white py-2.5 rounded-xl text-xs font-semibold text-center">BOOKING WA</a>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    /* ============================
+       DETAIL MOBIL MODAL
+    ============================ */
+    function showMobilDetail(id) {
+        const m = armadaData.find(x => x.id === id);
+        if (!m) return;
+        document.getElementById('modalTitle').textContent = m.nama;
+        document.getElementById('modalBody').innerHTML = `
+            <div class="rounded-xl overflow-hidden mb-5">
+                <!-- Ganti URL gambar ini dengan foto asli ${m.nama} -->
+                <img src="${m.img}" alt="${m.nama}" class="w-full h-56 object-cover">
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-5">
+                <div class="bg-softgray dark:bg-darkbg rounded-xl p-3 text-center"><div class="text-xs text-gray-400 mb-1">Harga/Hari</div><div class="font-bold text-navy dark:text-gold text-sm">${formatRupiah(m.harga)}</div></div>
+                <div class="bg-softgray dark:bg-darkbg rounded-xl p-3 text-center"><div class="text-xs text-gray-400 mb-1">Kapasitas</div><div class="font-bold text-navy dark:text-white text-sm">${m.kapasitas} Orang</div></div>
+                <div class="bg-softgray dark:bg-darkbg rounded-xl p-3 text-center"><div class="text-xs text-gray-400 mb-1">Bagasi</div><div class="font-bold text-navy dark:text-white text-sm">${m.bagasi}</div></div>
+                <div class="bg-softgray dark:bg-darkbg rounded-xl p-3 text-center"><div class="text-xs text-gray-400 mb-1">Transmisi</div><div class="font-bold text-navy dark:text-white text-sm">${m.transmisi}</div></div>
+                <div class="bg-softgray dark:bg-darkbg rounded-xl p-3 text-center"><div class="text-xs text-gray-400 mb-1">Bahan Bakar</div><div class="font-bold text-navy dark:text-white text-sm">${m.bbm}</div></div>
+                <div class="bg-softgray dark:bg-darkbg rounded-xl p-3 text-center"><div class="text-xs text-gray-400 mb-1">Tahun</div><div class="font-bold text-navy dark:text-white text-sm">${m.tahun}</div></div>
+            </div>
+            <div class="mb-5">
+                <h4 class="font-semibold text-navy dark:text-white text-sm mb-2">Fasilitas</h4>
+                <p class="text-gray-500 dark:text-gray-400 text-sm">${m.fasilitas}</p>
+            </div>
+            <div class="mb-5">
+                <h4 class="font-semibold text-navy dark:text-white text-sm mb-2">Deskripsi</h4>
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">${m.deskripsi}</p>
+            </div>
+            <div class="flex items-center gap-2 mb-5">${stars(m.rating)}<span class="text-sm text-gray-500 dark:text-gray-400">${m.rating} (${m.review} review)</span></div>
+            <a href="https://wa.me/${6287743045877}?text=${encodeURIComponent('Halo ONE TRANS LOMBOK, saya ingin booking '+m.nama+' ('+formatRupiah(m.harga)+'/hari). Mohon info ketersediaan.')}" target="_blank" class="btn-primary text-white w-full py-3.5 rounded-xl font-semibold text-sm flex items-center justify-center gap-2">
+                <i class="fab fa-whatsapp text-lg"></i> BOOKING VIA WHATSAPP
+            </a>
+        `;
+        document.getElementById('detailModal').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    /* ============================
+       RENDER WISATA
+    ============================ */
+    function renderWisata() {
+        const grid = document.getElementById('wisataGrid');
+        grid.innerHTML = wisataData.map(w => `
+            <div class="card-hover bg-white dark:bg-darkcard rounded-2xl overflow-hidden border border-gray-100 dark:border-darkborder shadow-sm">
+                <div class="img-zoom relative">
+                    <!-- Ganti URL gambar ini dengan foto asli ${w.nama} -->
+                    <img src="${w.img}" alt="${w.nama}" class="w-full h-52 object-cover" loading="lazy">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                        <div class="text-gold text-xs font-semibold mb-1"><i class="fas fa-map-marker-alt mr-1"></i>${w.lokasi}</div>
+                        <h3 class="text-white font-bold text-lg">${w.nama}</h3>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="text-sm text-gray-500 dark:text-gray-400"><i class="fas fa-clock mr-1 text-royal"></i>${w.durasi}</span>
+                        <span class="text-gold font-bold">${formatRupiah(w.harga)}<span class="text-xs font-normal text-gray-400">/orang</span></span>
+                    </div>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-2 mb-4">${w.deskripsi}</p>
+                    <div class="flex items-center gap-2 mb-4">${stars(w.rating)}<span class="text-xs text-gray-400">(${w.review})</span></div>
+                    <div class="flex gap-2">
+                        <button onclick="showWisataDetail(${w.id})" class="flex-1 btn-outline py-2.5 rounded-xl text-xs font-semibold">DETAIL</button>
+                        <a href="https://wa.me/${6287743045817}?text=${encodeURIComponent('Halo ONE TRANS LOMBOK, saya ingin booking wisata '+w.nama+' ('+formatRupiah(w.harga)+'/orang)')}" target="_blank" class="flex-1 btn-primary text-white py-2.5 rounded-xl text-xs font-semibold text-center">BOOKING WA</a>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    /* ============================
+       DETAIL WISATA MODAL
+    ============================ */
+    function showWisataDetail(id) {
+        const w = wisataData.find(x => x.id === id);
+        if (!w) return;
+        document.getElementById('modalTitle').textContent = w.nama;
+        document.getElementById('modalBody').innerHTML = `
+            <div class="rounded-xl overflow-hidden mb-5">
+                <!-- Ganti URL gambar ini dengan foto asli ${w.nama} -->
+                <img src="${w.img}" alt="${w.nama}" class="w-full h-56 object-cover">
+            </div>
+            <div class="flex flex-wrap gap-3 mb-5">
+                <span class="bg-royal/10 text-royal dark:text-royal-light text-xs font-semibold px-3 py-1.5 rounded-full"><i class="fas fa-clock mr-1"></i>${w.durasi}</span>
+                <span class="bg-gold/10 text-gold-dark text-xs font-semibold px-3 py-1.5 rounded-full"><i class="fas fa-tag mr-1"></i>${formatRupiah(w.harga)}/orang</span>
+                <a href="${w.maps}" target="_blank" class="bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-xs font-semibold px-3 py-1.5 rounded-full"><i class="fas fa-map mr-1"></i>Lokasi Maps</a>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-5">${w.deskripsi}</p>
+            <h4 class="font-semibold text-navy dark:text-white text-sm mb-3">Itinerary</h4>
+            <div class="space-y-2 mb-5">${w.itinerary.map(i => `<div class="flex items-start gap-2 text-sm"><i class="fas fa-circle text-[4px] text-royal mt-2 flex-shrink-0"></i><span class="text-gray-600 dark:text-gray-400">${i}</span></div>`).join('')}</div>
+            <div class="grid sm:grid-cols-2 gap-4 mb-5">
+                <div><h4 class="font-semibold text-green-600 text-sm mb-2"><i class="fas fa-check-circle mr-1"></i>Termasuk</h4><div class="space-y-1">${w.include.map(i => `<div class="text-sm text-gray-500 dark:text-gray-400"><i class="fas fa-plus text-[8px] text-green-500 mr-2"></i>${i}</div>`).join('')}</div></div>
+                <div><h4 class="font-semibold text-red-500 text-sm mb-2"><i class="fas fa-times-circle mr-1"></i>Tidak Termasuk</h4><div class="space-y-1">${w.exclude.map(i => `<div class="text-sm text-gray-500 dark:text-gray-400"><i class="fas fa-minus text-[8px] text-red-400 mr-2"></i>${i}</div>`).join('')}</div></div>
+            </div>
+            <div class="bg-softgray dark:bg-darkbg rounded-xl p-4 mb-5"><h4 class="font-semibold text-navy dark:text-white text-sm mb-1"><i class="fas fa-lightbulb text-gold mr-1"></i>Tips Perjalanan</h4><p class="text-gray-500 dark:text-gray-400 text-sm">${w.tips}</p></div>
+            <div class="flex items-center gap-2 mb-5">${stars(w.rating)}<span class="text-sm text-gray-500">${w.rating} (${w.review} review)</span></div>
+            <a href="https://wa.me/${6287743045817}?text=${encodeURIComponent('Halo ONE TRANS LOMBOK, saya ingin booking wisata '+w.nama+' ('+formatRupiah(w.harga)+'/orang). Mohon info ketersediaan.')}" target="_blank" class="btn-primary text-white w-full py-3.5 rounded-xl font-semibold text-sm flex items-center justify-center gap-2">
+                <i class="fab fa-whatsapp text-lg"></i> BOOKING VIA WHATSAPP
+            </a>
+        `;
+        document.getElementById('detailModal').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    /* ============================
+       RENDER PAKET
+    ============================ */
+    function renderPaket() {
+        const grid = document.getElementById('paketGrid');
+        grid.innerHTML = paketData.map((p, i) => `
+            <div class="card-hover bg-white dark:bg-darkcard rounded-2xl overflow-hidden border border-gray-100 dark:border-darkborder shadow-sm ${i === 5 ? 'ring-2 ring-gold' : ''}">
+                <div class="img-zoom relative">
+                    <!-- Ganti URL gambar ini dengan foto asli paket ${p.nama} -->
+                    <img src="${p.img}" alt="${p.nama}" class="w-full h-44 object-cover" loading="lazy">
+                    <div class="absolute top-3 left-3 bg-navy/80 backdrop-blur-md text-white text-xs font-semibold px-3 py-1 rounded-full">${p.durasi}</div>
+                    ${i === 5 ? '<div class="absolute top-3 right-3 bg-gold text-white text-[10px] font-bold px-2 py-1 rounded-full uppercase">Best Seller</div>' : ''}
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-navy dark:text-white text-base mb-2">${p.nama}</h3>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs line-clamp-2 mb-3">${p.detail}</p>
+                    <div class="text-gold font-bold text-xl mb-3">${formatRupiah(p.harga)}<span class="text-xs font-normal text-gray-400">/orang</span></div>
+                    <div class="mb-4">
+                        <div class="text-xs text-green-600 font-semibold mb-1">Termasuk:</div>
+                        <div class="space-y-0.5">${p.include.map(x => `<div class="text-xs text-gray-500 dark:text-gray-400"><i class="fas fa-check text-green-500 mr-1 text-[8px]"></i>${x}</div>`).join('')}</div>
+                    </div>
+                    <a href="https://wa.me/${6287743045817}?text=${encodeURIComponent('Halo ONE TRANS LOMBOK, saya ingin booking paket '+p.nama+' ('+formatRupiah(p.harga)+'/orang, '+p.durasi+').')}" target="_blank" class="btn-primary text-white w-full py-2.5 rounded-xl font-semibold text-xs flex items-center justify-center gap-2">
+                        <i class="fab fa-whatsapp"></i> BOOKING WHATSAPP
+                    </a>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    /* ============================
+       RENDER GALLERY
+    ============================ */
+    let currentGalleryFilter = 'all';
+    let lightboxImages = [];
+    let lightboxIndex = 0;
+
+    function renderGallery(filter) {
+        currentGalleryFilter = filter || 'all';
+        const grid = document.getElementById('galleryGrid');
+        const filtered = currentGalleryFilter === 'all' ? galleryData : galleryData.filter(g => g.cat === currentGalleryFilter);
+        lightboxImages = filtered.map(g => g.src);
+        grid.innerHTML = filtered.map((g, i) => `
+            <div class="img-zoom rounded-xl overflow-hidden cursor-pointer aspect-[4/3]" onclick="openLightbox(${i})">
+                <!-- Ganti URL gambar ini dengan foto asli gallery ${g.alt} -->
+                <img src="${g.src}" alt="${g.alt}" class="w-full h-full object-cover" loading="lazy">
+            </div>
+        `).join('');
+    }
+
+    function openLightbox(i) { lightboxIndex = i; updateLightbox(); document.getElementById('lightbox').classList.add('active'); document.body.style.overflow = 'hidden'; }
+    function closeLightbox() { document.getElementById('lightbox').classList.remove('active'); document.body.style.overflow = ''; }
+    function lightboxPrev() { lightboxIndex = (lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length; updateLightbox(); }
+    function lightboxNext() { lightboxIndex = (lightboxIndex + 1) % lightboxImages.length; updateLightbox(); }
+    function updateLightbox() { document.getElementById('lightboxImg').src = lightboxImages[lightboxIndex]; }
+
+    /* ============================
+       RENDER TESTIMONI
+    ============================ */
+    function renderTestimoni() {
+        const slider = document.getElementById('testimoniSlider');
+        slider.innerHTML = testimoniData.map(t => `
+            <div class="flex-shrink-0 w-[340px] bg-white dark:bg-darkcard rounded-2xl p-6 border border-gray-100 dark:border-darkborder shadow-sm">
+                <div class="flex items-center gap-1 mb-3">${stars(t.rating)}</div>
+                <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-5 line-clamp-3">"${t.komentar}"</p>
+                <div class="flex items-center gap-3">
+                    <!-- Ganti URL gambar ini dengan foto asli customer ${t.nama} -->
+                    <img src="${t.img}" alt="${t.nama}" class="w-11 h-11 rounded-full object-cover" loading="lazy">
+                    <div>
+                        <div class="font-semibold text-navy dark:text-white text-sm">${t.nama}</div>
+                        <div class="text-xs text-gray-400"><i class="fas fa-map-marker-alt mr-1"></i>${t.lokasi}</div>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    let testimoniScroll = 0;
+    function slideTestimoni(dir) {
+        const slider = document.getElementById('testimoniSlider');
+        testimoniScroll += dir * 360;
+        const maxScroll = slider.scrollWidth - slider.clientWidth;
+        testimoniScroll = Math.max(0, Math.min(testimoniScroll, maxScroll));
+        slider.scrollTo({ left: testimoniScroll, behavior: 'smooth' });
+    }
+
+    /* ============================
+       RENDER BLOG
+    ============================ */
+    function renderBlog() {
+        const grid = document.getElementById('blogGrid');
+        grid.innerHTML = blogData.map(b => `
+            <article class="card-hover bg-white dark:bg-darkcard rounded-2xl overflow-hidden border border-gray-100 dark:border-darkborder shadow-sm">
+                <div class="img-zoom">
+                    <!-- Ganti URL gambar ini dengan foto asli blog ${b.judul} -->
+                    <img src="${b.img}" alt="${b.judul}" class="w-full h-48 object-cover" loading="lazy">
+                </div>
+                <div class="p-5">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-[10px] bg-royal/10 text-royal dark:text-royal-light font-semibold px-2.5 py-1 rounded-full">${b.kategori}</span>
+                        <span class="text-xs text-gray-400">${b.tanggal}</span>
+                    </div>
+                    <h3 class="font-bold text-navy dark:text-white text-base mb-2 line-clamp-2 leading-snug">${b.judul}</h3>
+                    <p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-3 mb-4">${b.excerpt}</p>
+                    <a href="#" class="text-royal dark:text-royal-light text-sm font-semibold hover:underline inline-flex items-center gap-1">Baca Selengkapnya <i class="fas fa-arrow-right text-xs"></i></a>
+                </div>
+            </article>
+        `).join('');
+    }
+
+    /* ============================
+       RENDER FAQ
+    ============================ */
+    function renderFAQ() {
+        const container = document.getElementById('faqContainer');
+        container.innerHTML = faqData.map((f, i) => `
+            <div class="bg-white dark:bg-darkcard rounded-xl border border-gray-100 dark:border-darkborder overflow-hidden">
+                <button onclick="toggleFAQ(${i})" class="w-full flex items-center justify-between p-5 text-left">
+                    <span class="font-semibold text-navy dark:text-white text-sm pr-4">${f.q}</span>
+                    <i class="fas fa-chevron-down text-royal text-sm transition-transform duration-300 faq-icon-${i}"></i>
+                </button>
+                <div class="accordion-content" id="faq-${i}">
+                    <div class="px-5 pb-5 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">${f.a}</div>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    function toggleFAQ(i) {
+        const content = document.getElementById(`faq-${i}`);
+        const icon = document.querySelector(`.faq-icon-${i}`);
+        const isOpen = content.classList.contains('open');
+        // Tutup semua
+        document.querySelectorAll('.accordion-content').forEach(c => c.classList.remove('open'));
+        document.querySelectorAll('[class*="faq-icon-"]').forEach(ic => ic.style.transform = '');
+        if (!isOpen) {
+            content.classList.add('open');
+            icon.style.transform = 'rotate(180deg)';
+        }
+    }
+
+    /* ============================
+       BOOKING FORM
+    ============================ */
+    function submitBooking(e) {
+        e.preventDefault();
+        const nama = document.getElementById('bNama').value;
+        const wa = document.getElementById('bWA').value;
+        const email = document.getElementById('bEmail').value;
+        const mobil = document.getElementById('bMobil').value;
+        const tanggal = document.getElementById('bTanggal').value;
+        const kembali = document.getElementById('bKembali').value;
+        const jam = document.getElementById('bJam').value;
+        const jemput = document.getElementById('bJemput').value;
+        const tujuan = document.getElementById('bTujuan').value;
+        const orang = document.getElementById('bOrang').value;
+        const paket = document.getElementById('bPaket').value;
+        const driver = document.getElementById('bDriver').value;
+        const catatan = document.getElementById('bCatatan').value;
+
+        const pesan = `Halo ONE TRANS LOMBOK, saya ingin booking:
+
+*Nama:* ${nama}
+*WhatsApp:* ${wa}
+*Email:* ${email || '-'}
+*Mobil:* ${mobil}
+*Tanggal Rental:* ${tanggal}
+*Tanggal Kembali:* ${kembali}
+*Jam Jemput:* ${jam}
+*Lokasi Jemput:* ${jemput}
+*Tujuan:* ${tujuan || '-'}
+*Jumlah Orang:* ${orang}
+*Paket Wisata:* ${paket || 'Tanpa Paket'}
+*Dengan Driver:* ${driver}
+*Catatan:* ${catatan || '-'}
+
+Mohon konfirmasi ketersediaan dan total biaya. Terima kasih!`;
+
+        window.open(`https://wa.me/${6287743045817}?text=${encodeURIComponent(pesan)}`, '_blank');
+    }
+
+    /* ============================
+       FILTER ARMADA
+    ============================ */
+    function filterArmada() {
+        const search = document.getElementById('searchMobil').value.toLowerCase();
+        const kapasitas = document.getElementById('filterKapasitas').value;
+        const harga = document.getElementById('filterHarga').value;
+        const transmisi = document.getElementById('filterTransmisi').value;
+
+        let filtered = armadaData.filter(m => {
+            if (search && !m.nama.toLowerCase().includes(search)) return false;
+            if (kapasitas) {
+                const k = parseInt(kapasitas);
+                if (k === 5 && m.kapasitas > 5) return false;
+                if (k === 7 && (m.kapasitas < 6 || m.kapasitas > 7)) return false;
+                if (k === 12 && (m.kapasitas < 8 || m.kapasitas > 15)) return false;
+                if (k === 20 && m.kapasitas < 16) return false;
+            }
+            if (harga) {
+                const h = parseInt(harga);
+                if (h === 400000 && m.harga >= 400000) return false;
+                if (h === 700000 && (m.harga < 400000 || m.harga >= 700000)) return false;
+                if (h === 1200000 && (m.harga < 700000 || m.harga >= 1200000)) return false;
+                if (h === 9999999 && m.harga < 1200000) return false;
+            }
+            if (transmisi && m.transmisi !== transmisi) return false;
+            return true;
+        });
+        renderArmada(filtered);
+    }
+
+    /* ============================
+       NAVBAR SCROLL
+    ============================ */
+    function initNavbar() {
+        const nav = document.getElementById('navbar');
+        const promoH = document.getElementById('promoBanner').offsetHeight;
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('nav-scrolled');
+            } else {
+                nav.classList.remove('nav-scrolled');
+            }
+            // Scroll to top button
+            const btn = document.getElementById('scrollTopBtn');
+            if (window.scrollY > 600) {
+                btn.style.opacity = '1';
+                btn.style.pointerEvents = 'all';
+            } else {
+                btn.style.opacity = '0';
+                btn.style.pointerEvents = 'none';
+            }
+        });
+    }
+
+    /* ============================
+       MOBILE MENU
+    ============================ */
+    function toggleMobileMenu() {
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        menu.classList.toggle('open');
+        overlay.classList.toggle('hidden');
+        document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
+    }
+
+    /* ============================
+       DARK MODE
+    ============================ */
+    function toggleDark() {
+        document.documentElement.classList.toggle('dark');
+        const isDark = document.documentElement.classList.contains('dark');
+        localStorage.setItem('dark', isDark);
+        updateDarkIcons();
+    }
+    function updateDarkIcons() {
+        const isDark = document.documentElement.classList.contains('dark');
+        document.querySelectorAll('.dark-hidden').forEach(el => el.style.display = isDark ? 'none' : '');
+        document.querySelectorAll('.dark-show').forEach(el => el.style.display = isDark ? '' : 'none');
+    }
+    function initDarkMode() {
+        if (localStorage.getItem('dark') === 'true') {
+            document.documentElement.classList.add('dark');
+        }
+        updateDarkIcons();
+    }
+
+    /* ============================
+       SCROLL ANIMATIONS
+    ============================ */
+    function initScrollAnimations() {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-in').forEach(el => observer.observe(el));
+    }
+
+    /* ============================
+       COUNTER ANIMATION
+    ============================ */
+    function animateCounters() {
+        const counters = document.querySelectorAll('[data-count]');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = parseInt(el.dataset.count);
+                    let current = 0;
+                    const step = Math.max(1, Math.floor(target / 60));
+                    const timer = setInterval(() => {
+                        current += step;
+                        if (current >= target) {
+                            current = target;
+                            clearInterval(timer);
+                        }
+                        el.textContent = current.toLocaleString('id-ID') + '+';
+                    }, 30);
+                    observer.unobserve(el);
+                }
+            });
+        }, { threshold: 0.5 });
+        counters.forEach(c => observer.observe(c));
+    }
+
+    /* ============================
+       CLOSE MODAL
+    ============================ */
+    function closeModal() {
+        document.getElementById('detailModal').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    /* ============================
+       PROMO BANNER
+    ============================ */
+    function closePromo() {
+        document.getElementById('promoBanner').classList.add('hidden');
+    }
+
+    /* ============================
+       DISCOUNT POPUP
+    ============================ */
+    function closePopup() {
+        document.getElementById('discountPopup').classList.remove('active');
+        document.body.style.overflow = '';
+        sessionStorage.setItem('popupShown', 'true');
+    }
+
+    function initPopup() {
+        if (!sessionStorage.getItem('popupShown')) {
+            setTimeout(() => {
+                document.getElementById('discountPopup').classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }, 8000);
+        }
+    }
+
+    /* ============================
+       POPULATE SELECT OPTIONS
+    ============================ */
+    function populateSelects() {
+        const mobilSelect = document.getElementById('bMobil');
+        armadaData.forEach(m => {
+            const opt = document.createElement('option');
+            opt.value = m.nama;
+            opt.textContent = `${m.nama} - ${formatRupiah(m.harga)}/hari`;
+            mobilSelect.appendChild(opt);
+        });
+        const paketSelect = document.getElementById('bPaket');
+        paketData.forEach(p => {
+            const opt = document.createElement('option');
+            opt.value = p.nama;
+            opt.textContent = `${p.nama} - ${formatRupiah(p.harga)}/orang (${p.durasi})`;
+            paketSelect.appendChild(opt);
+        });
+    }
+
+    /* ============================
+       KEYBOARD & CLICK HANDLERS
+    ============================ */
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeModal();
+            closeLightbox();
+            closePopup();
+        }
+        if (document.getElementById('lightbox').classList.contains('active')) {
+            if (e.key === 'ArrowLeft') lightboxPrev();
+            if (e.key === 'ArrowRight') lightboxNext();
+        }
+    });
+
+    // Klik di luar modal untuk menutup
+    document.getElementById('detailModal').addEventListener('click', function(e) {
+        if (e.target === this) closeModal();
+    });
+    document.getElementById('lightbox').addEventListener('click', function(e) {
+        if (e.target === this) closeLightbox();
+    });
+    document.getElementById('discountPopup').addEventListener('click', function(e) {
+        if (e.target === this) closePopup();
+    });
+
+    /* ============================
+       GALLERY FILTER BUTTONS
+    ============================ */
+    document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('filter-btn') && e.target.dataset.filter) {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            renderGallery(e.target.dataset.filter);
+        }
+    });
+
+    /* ============================
+       INIT
+    ============================ */
+    document.addEventListener('DOMContentLoaded', () => {
+        initDarkMode();
+        initNavbar();
+        populateSelects();
+        renderArmada();
+        renderWisata();
+        renderPaket();
+        renderGallery();
+        renderTestimoni();
+        renderBlog();
+        renderFAQ();
+        initScrollAnimations();
+        animateCounters();
+        initPopup();
+
+        // Filter listeners
+        document.getElementById('searchMobil').addEventListener('input', filterArmada);
+        document.getElementById('filterKapasitas').addEventListener('change', filterArmada);
+        document.getElementById('filterHarga').addEventListener('change', filterArmada);
+        document.getElementById('filterTransmisi').addEventListener('change', filterArmada);
+
+        // Set minimum date hari ini
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('bTanggal').min = today;
+        document.getElementById('bKembali').min = today;
+        document.getElementById('bTanggal').addEventListener('change', function() {
+            document.getElementById('bKembali').min = this.value;
+        });
+    });
+    </script>
+</body>
+</html>
